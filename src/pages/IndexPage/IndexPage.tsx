@@ -11,13 +11,13 @@ export const IndexPage: FC = () => {
     <Page back={false}>
       <List>
         <Section
-          header="Features"
-          footer="You can use these pages to learn more about features, provided by Telegram Mini Apps and other useful projects"
+          header="NeoEve 3D 艺术空间"
+          footer="NeoEve人工智能AI强力驱动的数字美学"
         >
           <Link to="/ton-connect">
             <Cell
-              before={<Image src={tonSvg} style={{ backgroundColor: '#007AFF' }}/>}
-              subtitle="Connect your TON wallet"
+              before={<Image src="/ceshi.jpg" style={{ backgroundColor: '#007AFF' }}/>}
+              subtitle="最新渲染作品"
             >
               TON Connect
             </Cell>
